@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F54567B2B184BB5007AD5D7 /* Calculator_Test_lv1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator_Test_lv1; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F54567B2B184BB5007AD5D7 /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F54567E2B184BB5007AD5D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1F5456852B184BBF007AD5D7 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +43,7 @@
 		1F5456722B184BB4007AD5D7 = {
 			isa = PBXGroup;
 			children = (
-				1F54567D2B184BB5007AD5D7 /* Calculator_Test_lv1 */,
+				1F54567D2B184BB5007AD5D7 /* Calculator */,
 				1F54567C2B184BB5007AD5D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,26 +51,27 @@
 		1F54567C2B184BB5007AD5D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F54567B2B184BB5007AD5D7 /* Calculator_Test_lv1 */,
+				1F54567B2B184BB5007AD5D7 /* Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F54567D2B184BB5007AD5D7 /* Calculator_Test_lv1 */ = {
+		1F54567D2B184BB5007AD5D7 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				1F54567E2B184BB5007AD5D7 /* main.swift */,
 				1F5456852B184BBF007AD5D7 /* Calculator.swift */,
 			);
-			path = Calculator_Test_lv1;
-			sourceTree = "<group>";
+			name = Calculator;
+			path = "/Users/t2023-m0031/Desktop/Practice/Calculator_Test/Calculator";
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F54567A2B184BB5007AD5D7 /* Calculator_Test_lv1 */ = {
+		1F54567A2B184BB5007AD5D7 /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F5456822B184BB5007AD5D7 /* Build configuration list for PBXNativeTarget "Calculator_Test_lv1" */;
+			buildConfigurationList = 1F5456822B184BB5007AD5D7 /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				1F5456772B184BB5007AD5D7 /* Sources */,
 				1F5456782B184BB5007AD5D7 /* Frameworks */,
@@ -80,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = Calculator_Test_lv1;
+			name = Calculator;
 			productName = Calculator_Test;
-			productReference = 1F54567B2B184BB5007AD5D7 /* Calculator_Test_lv1 */;
+			productReference = 1F54567B2B184BB5007AD5D7 /* Calculator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F5456762B184BB4007AD5D7 /* Build configuration list for PBXProject "Calculator_Test_lv1" */;
+			buildConfigurationList = 1F5456762B184BB4007AD5D7 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F54567A2B184BB5007AD5D7 /* Calculator_Test_lv1 */,
+				1F54567A2B184BB5007AD5D7 /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F5456762B184BB4007AD5D7 /* Build configuration list for PBXProject "Calculator_Test_lv1" */ = {
+		1F5456762B184BB4007AD5D7 /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5456802B184BB5007AD5D7 /* Debug */,
@@ -279,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F5456822B184BB5007AD5D7 /* Build configuration list for PBXNativeTarget "Calculator_Test_lv1" */ = {
+		1F5456822B184BB5007AD5D7 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F5456832B184BB5007AD5D7 /* Debug */,
