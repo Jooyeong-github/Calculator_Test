@@ -34,7 +34,7 @@ class Calculator {
             } else {
                 return 0 // 0으로 나누는 경우 0을 리턴
             }
-        case "%":
+//        case "%":
         default:
             return 0 // 정확한 연산자가 전달되지 않으면 0을 리턴
         }
